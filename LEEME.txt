@@ -1,0 +1,20 @@
+MI DINERO V1.1 - MEJORAS
+
+Incluye:
+- Registro, edición y eliminación de ingresos y egresos con formularios.
+- Calendario mensual para consultar movimientos por día.
+- Resumen mensual con presupuesto y aviso visual al superarlo.
+- Gráfico diario de ingresos y egresos y desglose por categoría.
+- Configuración de PIN de 4 a 8 dígitos para bloquear la interfaz.
+- Exportación e importación de respaldo JSON (incluye presupuesto).
+- Exportación CSV compatible con Excel.
+- Almacenamiento local y modo instalable/offline mediante PWA.
+- Sin anuncios, analítica ni servicios de pago.
+
+INSTALACIÓN EN ANDROID
+Esta entrega es una PWA, no un APK nativo. Debe alojarse en un sitio HTTPS para instalarla desde Chrome: abrir la dirección > menú ⋮ > Instalar aplicación o Añadir a pantalla principal. Tras la primera carga, el service worker permite usarla sin conexión.
+
+DATOS Y SEGURIDAD
+Los registros se guardan en el almacenamiento local del navegador/dispositivo. Usa Más > Exportar respaldo regularmente. La protección PIN bloquea la interfaz, pero NO cifra los datos locales ni reemplaza el bloqueo del teléfono. Si se pierde el almacenamiento del navegador, solo podrás recuperar los datos desde un respaldo exportado. No existe recuperación automática de PIN olvidado.
+
+V1.1 conserva el formato de datos de V1.0 y debería cargar los movimientos existentes si se abre en el mismo navegador/dispositivo.
